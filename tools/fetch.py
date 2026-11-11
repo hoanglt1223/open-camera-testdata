@@ -1,4 +1,4 @@
-﻿"""Download every manifest asset into data/ and verify sha256.
+"""Download every manifest asset into data/ and verify sha256.
 
 usage: python tools/fetch.py [--category portrait,moon ...] [--verify-only]
 """
@@ -7,7 +7,7 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-H = {"User-Agent": "OpenCameraTestdata/0.1 (https://www.mediawiki.org/wiki/API:Etiquette) python-requests/2"}
+H = {"User-Agent": "OpenCameraTestdata/0.1 (https://github.com/hoanglt1223/open-camera-testdata) python-requests/2"}
 
 
 def sha256(p):

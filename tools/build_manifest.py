@@ -1,4 +1,4 @@
-﻿"""Curate manifest.json from license-filtered sources (Wikimedia Commons, raw.pixls.us, NASA, Met Museum).
+"""Curate manifest.json from license-filtered sources (Wikimedia Commons, raw.pixls.us, NASA, Met Museum).
 
 Re-running rebuilds the manifest from the query list below; EXCLUDE drops items rejected on visual review.
 Only CC0, public domain and CC BY (no SA/NC/ND) pass the license gate.
@@ -9,7 +9,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-H = {"User-Agent": "OpenCameraTestdata/0.1 (https://www.mediawiki.org/wiki/API:Etiquette) python-requests/2"}
+H = {"User-Agent": "OpenCameraTestdata/0.1 (https://github.com/hoanglt1223/open-camera-testdata) python-requests/2"}
 API = "https://commons.wikimedia.org/w/api.php"
 # Wikidata license statements: CC0, CC BY 4.0, CC BY 2.0, CC BY 3.0, CC BY 2.5; copyright status: public domain
 LIC_FILTER = ("haswbstatement:P275=Q6938433|P275=Q20007257|P275=Q19125117|P275=Q14947546|P275=Q18810333"

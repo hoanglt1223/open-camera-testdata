@@ -3302,6 +3302,75 @@
    "resolution": "16.27 MP",
    "mime": "image/x-adobe-dng",
    "notes": "Ricoh GR 12bit (4:3)"
+  },
+  {
+   "id": "raw-nikon-d3400",
+   "category": "raw-dng",
+   "tags": [
+    "raw",
+    "maker-raw",
+    "camera"
+   ],
+   "file": "data/raw-dng/nikon-d3400.NEF",
+   "source_page": "https://raw.pixls.us/",
+   "source_url": "https://raw.pixls.us/getfile.php/1561/nice/Nikon%20-%20D3400%20-%2012bit%2012bit%20compressed%20(Lossy%20(type%202))%20(3:2).NEF",
+   "original_url": "https://raw.pixls.us/getfile.php/1561/nice/Nikon%20-%20D3400%20-%2012bit%2012bit%20compressed%20(Lossy%20(type%202))%20(3:2).NEF",
+   "author": "raw.pixls.us contributor",
+   "credit": "raw.pixls.us",
+   "license": "CC0 1.0",
+   "license_code": "cc0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution_required": false,
+   "sha256": "eced190786231f0081261b6c6b425fe23e42a53ade21dec3def5ae8551be71a5",
+   "size": 23097688,
+   "mime": "image/x-nikon-nef",
+   "notes": "Nikon D3400 NEF (24 MP)"
+  },
+  {
+   "id": "raw-sony-ilce-6000",
+   "category": "raw-dng",
+   "tags": [
+    "raw",
+    "maker-raw",
+    "camera"
+   ],
+   "file": "data/raw-dng/sony-ilce-6000.ARW",
+   "source_page": "https://raw.pixls.us/",
+   "source_url": "https://raw.pixls.us/getfile.php/1971/nice/Sony%20-%20ILCE-6000%20-%2012bit%2012bit%20compressed%20(3:2).ARW",
+   "original_url": "https://raw.pixls.us/getfile.php/1971/nice/Sony%20-%20ILCE-6000%20-%2012bit%2012bit%20compressed%20(3:2).ARW",
+   "author": "raw.pixls.us contributor",
+   "credit": "raw.pixls.us",
+   "license": "CC0 1.0",
+   "license_code": "cc0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution_required": false,
+   "sha256": "ce8b4957281a817d52a07a691e2468567b6c78223bd0b514ffc1c65b002b8d89",
+   "size": 25624576,
+   "mime": "image/x-sony-arw",
+   "notes": "Sony ILCE-6000 ARW (24 MP)"
+  },
+  {
+   "id": "raw-canon-eos-m50-craw",
+   "category": "raw-dng",
+   "tags": [
+    "raw",
+    "maker-raw",
+    "camera"
+   ],
+   "file": "data/raw-dng/canon-eos-m50-craw.CR3",
+   "source_page": "https://raw.pixls.us/",
+   "source_url": "https://raw.pixls.us/getfile.php/2663/nice/Canon%20-%20EOS%20M50%20-%20CRAW%20(3:2).CR3",
+   "original_url": "https://raw.pixls.us/getfile.php/2663/nice/Canon%20-%20EOS%20M50%20-%20CRAW%20(3:2).CR3",
+   "author": "raw.pixls.us contributor",
+   "credit": "raw.pixls.us",
+   "license": "CC0 1.0",
+   "license_code": "cc0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution_required": false,
+   "sha256": "15384b775867ec4c42b11882837f1e368cedc0561832ffab271221e6bb80be4c",
+   "size": 20948692,
+   "mime": "image/x-canon-cr3",
+   "notes": "Canon EOS M50 CR3 (C-RAW)"
   }
  ]
 }

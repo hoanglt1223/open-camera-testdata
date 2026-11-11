@@ -1,0 +1,485 @@
+[
+ {
+  "file": "synthetic/color/colorchecker24.png",
+  "tags": [
+   "color",
+   "white-balance",
+   "lut",
+   "color-match"
+  ],
+  "resolution": "1600x1200",
+  "notes": "ColorChecker-style 24 patches, approximate sRGB D65 values (row-major)."
+ },
+ {
+  "file": "synthetic/color/gray-ramps.png",
+  "tags": [
+   "tone-curve",
+   "banding",
+   "lut"
+  ],
+  "resolution": "1600x1200",
+  "notes": "rows: smooth ramp, 21-step wedge, R ramp, G ramp"
+ },
+ {
+  "file": "synthetic/color/skin-tones-mst10.png",
+  "tags": [
+   "skin-tone",
+   "retouch-skin",
+   "white-balance"
+  ],
+  "resolution": "1600x600",
+  "notes": "Monk Skin Tone 10-step scale patches on 18% gray"
+ },
+ {
+  "file": "synthetic/color/colorchecker-wb-tungsten-2800k.png",
+  "tags": [
+   "white-balance",
+   "auto-wb"
+  ],
+  "resolution": "1600x1200",
+  "notes": "channel gains (1.0, 0.78, 0.48) applied in gamma space"
+ },
+ {
+  "file": "synthetic/color/colorchecker-wb-daylight-5500k.png",
+  "tags": [
+   "white-balance",
+   "auto-wb"
+  ],
+  "resolution": "1600x1200",
+  "notes": "channel gains (1, 1, 1) applied in gamma space"
+ },
+ {
+  "file": "synthetic/color/colorchecker-wb-shade-7500k.png",
+  "tags": [
+   "white-balance",
+   "auto-wb"
+  ],
+  "resolution": "1600x1200",
+  "notes": "channel gains (0.82, 0.92, 1.0) applied in gamma space"
+ },
+ {
+  "file": "synthetic/color/colorchecker-wb-fluorescent-green.png",
+  "tags": [
+   "white-balance",
+   "auto-wb"
+  ],
+  "resolution": "1600x1200",
+  "notes": "channel gains (0.9, 1.0, 0.85) applied in gamma space"
+ },
+ {
+  "file": "synthetic/geometry/checkerboard-50px.png",
+  "tags": [
+   "calibration",
+   "lens-distortion",
+   "sharpness"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/geometry/resolution-siemens-slanted-edge.png",
+  "tags": [
+   "sharpness",
+   "super-res",
+   "mtf"
+  ],
+  "resolution": "1600x1200",
+  "notes": "72-spoke Siemens star + 5 degree slanted edge"
+ },
+ {
+  "file": "synthetic/geometry/line-grid.png",
+  "tags": [
+   "lens-distortion",
+   "perspective",
+   "horizon"
+  ],
+  "resolution": "1600x1200",
+  "notes": "undistorted ground truth"
+ },
+ {
+  "file": "synthetic/geometry/line-grid-barrel-k1_-0.18.png",
+  "tags": [
+   "lens-distortion"
+  ],
+  "resolution": "1600x1200",
+  "notes": "radial model x_src = x*(1+k1*r^2), k1=-0.18, r normalized by half-width"
+ },
+ {
+  "file": "synthetic/geometry/line-grid-pincushion-k1_0.12.png",
+  "tags": [
+   "lens-distortion"
+  ],
+  "resolution": "1600x1200",
+  "notes": "radial model x_src = x*(1+k1*r^2), k1=0.12, r normalized by half-width"
+ },
+ {
+  "file": "synthetic/geometry/line-grid-tilt-2deg.png",
+  "tags": [
+   "horizon",
+   "auto-level"
+  ],
+  "resolution": "1600x1200",
+  "notes": "rotated 2 degrees CCW; correct answer is -2"
+ },
+ {
+  "file": "synthetic/geometry/line-grid-tilt-5deg.png",
+  "tags": [
+   "horizon",
+   "auto-level"
+  ],
+  "resolution": "1600x1200",
+  "notes": "rotated 5 degrees CCW; correct answer is -5"
+ },
+ {
+  "file": "synthetic/geometry/line-grid-keystone.png",
+  "tags": [
+   "perspective",
+   "keystone"
+  ],
+  "resolution": "1600x1200",
+  "notes": "PIL QUAD source corners (200, 150, 1450, 60, 1550, 1150, 60, 1000)"
+ },
+ {
+  "file": "synthetic/noise/clean.png",
+  "tags": [
+   "denoise",
+   "ground-truth"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/noise/iso00100.png",
+  "tags": [
+   "denoise",
+   "night-mode",
+   "noise"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Poisson-Gaussian: full_well=12000*100/ISO e-, read noise 3 e-; ISO 100"
+ },
+ {
+  "file": "synthetic/noise/iso00400.png",
+  "tags": [
+   "denoise",
+   "night-mode",
+   "noise"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Poisson-Gaussian: full_well=12000*100/ISO e-, read noise 3 e-; ISO 400"
+ },
+ {
+  "file": "synthetic/noise/iso01600.png",
+  "tags": [
+   "denoise",
+   "night-mode",
+   "noise"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Poisson-Gaussian: full_well=12000*100/ISO e-, read noise 3 e-; ISO 1600"
+ },
+ {
+  "file": "synthetic/noise/iso03200.png",
+  "tags": [
+   "denoise",
+   "night-mode",
+   "noise"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Poisson-Gaussian: full_well=12000*100/ISO e-, read noise 3 e-; ISO 3200"
+ },
+ {
+  "file": "synthetic/noise/iso06400.png",
+  "tags": [
+   "denoise",
+   "night-mode",
+   "noise"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Poisson-Gaussian: full_well=12000*100/ISO e-, read noise 3 e-; ISO 6400"
+ },
+ {
+  "file": "synthetic/noise/iso12800.png",
+  "tags": [
+   "denoise",
+   "night-mode",
+   "noise"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Poisson-Gaussian: full_well=12000*100/ISO e-, read noise 3 e-; ISO 12800"
+ },
+ {
+  "file": "synthetic/burst/frame00.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame01.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame02.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame03.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame04.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame05.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame06.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/frame07.png",
+  "tags": [
+   "burst",
+   "align",
+   "merge",
+   "ghost",
+   "night-mode",
+   "super-res"
+  ],
+  "resolution": "1600x1200",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/burst/reference-clean.png",
+  "tags": [
+   "ground-truth"
+  ],
+  "resolution": "1600x1200",
+  "notes": "frame 0 geometry, no noise, no object"
+ },
+ {
+  "file": "synthetic/hdr/ground-truth-radiance.npy",
+  "tags": [
+   "hdr",
+   "ground-truth"
+  ],
+  "resolution": "1600x1200",
+  "notes": "float16 linear radiance, EV0 maps 1.0 to white"
+ },
+ {
+  "file": "synthetic/hdr/bracket-ev-2.jpg",
+  "tags": [
+   "hdr",
+   "bracket",
+   "merge"
+  ],
+  "resolution": "1600x1200",
+  "notes": "exposure -2 EV of ground truth radiance, sRGB, clipped"
+ },
+ {
+  "file": "synthetic/hdr/bracket-ev+0.jpg",
+  "tags": [
+   "hdr",
+   "bracket",
+   "merge"
+  ],
+  "resolution": "1600x1200",
+  "notes": "exposure +0 EV of ground truth radiance, sRGB, clipped"
+ },
+ {
+  "file": "synthetic/hdr/bracket-ev+2.jpg",
+  "tags": [
+   "hdr",
+   "bracket",
+   "merge"
+  ],
+  "resolution": "1600x1200",
+  "notes": "exposure +2 EV of ground truth radiance, sRGB, clipped"
+ },
+ {
+  "file": "synthetic/hdr/reference-reinhard.png",
+  "tags": [
+   "hdr",
+   "ground-truth"
+  ],
+  "resolution": "1600x1200",
+  "notes": "Reinhard global tonemap reference"
+ },
+ {
+  "file": "synthetic/moon/moon-sharp.png",
+  "tags": [
+   "moon",
+   "moon-mode",
+   "ground-truth"
+  ],
+  "resolution": "1024x1024",
+  "notes": "radius 300 px on black"
+ },
+ {
+  "file": "synthetic/moon/moon-blur2.png",
+  "tags": [
+   "moon",
+   "deblur",
+   "super-res"
+  ],
+  "resolution": "1024x1024",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/moon/moon-blur5.png",
+  "tags": [
+   "moon",
+   "deblur",
+   "super-res"
+  ],
+  "resolution": "1024x1024",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/moon/moon-small-blurred.png",
+  "tags": [
+   "moon",
+   "super-res"
+  ],
+  "resolution": "256x256",
+  "notes": "4x downscaled + blur, as from a 1x lens"
+ },
+ {
+  "file": "synthetic/moon/moon-noisy-underexposed.png",
+  "tags": [
+   "moon",
+   "denoise",
+   "night-mode"
+  ],
+  "resolution": "1024x1024",
+  "notes": ""
+ },
+ {
+  "file": "synthetic/document/_flat.png",
+  "tags": [
+   "document",
+   "ground-truth"
+  ],
+  "resolution": "1240x1754",
+  "notes": "flat A4 @150dpi"
+ },
+ {
+  "file": "synthetic/document/page-perspective.jpg",
+  "tags": [
+   "document",
+   "doc-scan",
+   "perspective",
+   "ocr"
+  ],
+  "resolution": "2000x1500",
+  "notes": "page corners TL,TR,BR,BL = [(520, 180), (1530, 260), (1650, 1380), (380, 1300)]; uneven illumination"
+ },
+ {
+  "file": "synthetic/panorama/frame0.jpg",
+  "tags": [
+   "panorama",
+   "stitch"
+  ],
+  "resolution": "1300x1000",
+  "notes": "crop x=0..1300 (~30% overlap)"
+ },
+ {
+  "file": "synthetic/panorama/frame1.jpg",
+  "tags": [
+   "panorama",
+   "stitch"
+  ],
+  "resolution": "1300x1000",
+  "notes": "crop x=900..2200 (~30% overlap)"
+ },
+ {
+  "file": "synthetic/panorama/frame2.jpg",
+  "tags": [
+   "panorama",
+   "stitch"
+  ],
+  "resolution": "1300x1000",
+  "notes": "crop x=1800..3100 (~30% overlap)"
+ },
+ {
+  "file": "synthetic/panorama/frame3.jpg",
+  "tags": [
+   "panorama",
+   "stitch"
+  ],
+  "resolution": "1300x1000",
+  "notes": "crop x=2700..4000 (~30% overlap)"
+ },
+ {
+  "file": "synthetic/panorama/ground-truth.jpg",
+  "tags": [
+   "panorama",
+   "ground-truth"
+  ],
+  "resolution": "4000x1000",
+  "notes": ""
+ }
+]

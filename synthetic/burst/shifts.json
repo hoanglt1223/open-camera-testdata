@@ -1,0 +1,106 @@
+[
+ {
+  "frame": 0,
+  "shift_px": [
+   -4.5,
+   0.0
+  ],
+  "moving_object_box": [
+   200,
+   700,
+   340,
+   840
+  ]
+ },
+ {
+  "frame": 1,
+  "shift_px": [
+   2.0,
+   1.0
+  ],
+  "moving_object_box": [
+   320,
+   700,
+   460,
+   840
+  ]
+ },
+ {
+  "frame": 2,
+  "shift_px": [
+   0.0,
+   0.0
+  ],
+  "moving_object_box": [
+   440,
+   700,
+   580,
+   840
+  ]
+ },
+ {
+  "frame": 3,
+  "shift_px": [
+   1.0,
+   -0.5
+  ],
+  "moving_object_box": [
+   560,
+   700,
+   700,
+   840
+  ]
+ },
+ {
+  "frame": 4,
+  "shift_px": [
+   -1.0,
+   -4.0
+  ],
+  "moving_object_box": [
+   680,
+   700,
+   820,
+   840
+  ]
+ },
+ {
+  "frame": 5,
+  "shift_px": [
+   -5.5,
+   -2.0
+  ],
+  "moving_object_box": [
+   800,
+   700,
+   940,
+   840
+  ]
+ },
+ {
+  "frame": 6,
+  "shift_px": [
+   -5.5,
+   -2.5
+  ],
+  "moving_object_box": [
+   920,
+   700,
+   1060,
+   840
+  ]
+ },
+ {
+  "frame": 7,
+  "shift_px": [
+   -5.5,
+   5.5
+  ],
+  "moving_object_box": [
+   1040,
+   700,
+   1180,
+   840
+  ]
+ }
+]
